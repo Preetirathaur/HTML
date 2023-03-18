@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>basic form</title>
+    <style>
+        .body {
+            background-color: aqua;
+            background-repeat: cover;
+        }
+    </style>
+</head>
+<body>
+    <fieldset class="body">
+        <legend>user data</legend>
+      <form action="/about.html"target="-blank">
+            <label for="name">usernane</label>
+            <input type="text"id= "name"name="username"><br>
+            <label for="password">password</label>
+            <input type="password"id= "password"name="password">
+            <input type="submit" valu="submit"><br>    
+             <input type="radio" id="DSA" name="dsa">
+             <label for="dsa">DSA</label>
+             <input type="radio" id="SE"name="dsa">
+              <label for="se">SE</label><br>
+              <h4>checkbox--</h4>
+              <input type="checkbox" id="DSA" name="dsa">
+             <label for="dsa">DSA</label>
+             <input type="checkbox" id="SE"name="se">
+              <label for="se">SE</label><br>
+              <label for="subjects">choose a subject</label>
+              <select name="subjects" id="subjects" multiple>
+                <option value="dsa">DSA</option>
+                <option value="os">OS</option>
+                <option value="se">SE</option>
+                <option value="es">ES</option>
+              </select><br>
+              <label for="subject">Discription box</label>
+              <textarea name="subject" id="" cols="30" rows="10">write</textarea><br>
+              <label for="birthdate">Birthdate</label>
+              <input type="date" name="date" id="birthdate">
+              <input type="color" name="date" id="birthdate"><br>
+              <input type="file" name="date" id="birthdate">
+
+              <label for="file">File</label>
+              <input type="file" name="date" id="birthdate">
+              <input type="month" name="date" id="birthdate">
+              <input type="number" name="date" id="birthdate">
+
+        </form>
+   </fieldset>
+</body>
+</html>
